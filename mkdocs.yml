@@ -1,0 +1,28 @@
+site_name: 我的技术文档
+site_url: https://cv123456807.github.io/my-docs/
+site_description: 基于 MkDocs Material 的个人技术文档，由 GitHub Actions 自动部署
+repo_url: https://github.com/cv123456807/my-docs
+repo_name: cv123456807/my-docs
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+
+nav:
+  - 首页: index.md
+  - 关于: about.md
+  - 使用指南: guide.md
+  - API参考: api.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true

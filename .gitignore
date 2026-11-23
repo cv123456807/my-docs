@@ -1,0 +1,12 @@
+# 构建产物：mkdocs build 生成，可随时重建，不提交
+site/
+
+# 本地虚拟环境
+.venv/
+
+# Python 缓存
+__pycache__/
+
+# 编辑器/系统产生的杂物
+.DS_Store
+Thumbs.db
